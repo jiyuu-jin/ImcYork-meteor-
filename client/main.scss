@@ -44,19 +44,30 @@ p {
 }
 
 .big-slider{
-  height:55vh !important;
+  height: calc(100vh - 64px) !important;
 }
 
 
 .big-slides{
-  height: 55vh !important;
+  height: calc(100vh - 64px) !important;
 }
 
 .physicians{
   margin-top: 20px;
 }
 
+.polaroid{
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+.polar-cap{
+  padding: 5px;
+}
+
 .spacer{
+  margin-top: 5px;
   height: 30px;
   width: 100vw;
 }

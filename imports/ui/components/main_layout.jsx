@@ -27,7 +27,7 @@ const Header = () =>({
 							<li><Link className="black-text" to="/emergencies/">Emergencies</Link></li>
 							<li><Link to="/mdvip/" className="bigger orange-text text-darken-1" >MDVIP</Link></li>
 							<li><Link to="/sculpsure/" className=" bigger orange-text text-darken-1">SculpSure</Link></li>
-							<li><Link className="black-text" to="/faqs/">FAQ's</Link>></li>
+							<li><Link className="black-text" to="/faqs/">FAQ's</Link></li>
 						</ul>
 
 						<ul id="nav-mobile" className="side-nav">
@@ -37,7 +37,7 @@ const Header = () =>({
 							<li><Link className="black-text" to="/emergencies/">Emergencies</Link></li>
 							<li><Link to="/mdvip/" className="bigger orange-text text-darken-1" >MDVIP</Link></li>
 							<li><Link to="/sculpsure/" className=" bigger orange-text text-darken-1">SculpSure</Link></li>
-							<li><Link className="black-text" to="/faqs/">FAQ's</Link>></li>
+							<li><Link className="black-text" to="/faqs/">FAQ's</Link></li>
 						</ul>
 						<a href="#" data-activates="nav-mobile" className="button-collapse"><i className="material-icons">menu</i></a>
 					</div>
@@ -64,7 +64,7 @@ class MainLayout extends Component {
 			<div>
 				<Header/>
 
-				<div id="page-content">
+				<div id="page-content" className="grey lighten-4">
 						<Switch>
 							<Route exact name="index" path="/" component={IndexPage} />
 							<Route path="/mdvip" component={Mdvip} />
@@ -76,12 +76,12 @@ class MainLayout extends Component {
 							<Route path="/appointments" component={Appointments} />
 						</Switch>
 				</div>
-				<footer className="page-footer orange">
+				<footer className="page-footer orange darken-1">
 					<div className="container">
 						<div className="row">
 							<div className="col l6 s12">
-								<h5 className="white-text">Our Team</h5>
-								<p className="grey-text text-lighten-4">Every person in our office, from our receptionists to our back office staff to our physicians, operates as part of a team to provide you with the best patient experience and immediate access to our physicians.</p>
+								<h5 className="white-text">Our Goal</h5>
+								<p className="grey-text text-lighten-4">Every person in our office, from the receptionists and secretaries to the nursing staff to the providers, operates as part of a team to provide you with the best patient experience and immediate access to medical care.</p>
 							</div>
 							<div className="col offest-l3 l3 s12">
 								<h5 className="white-text">Connect</h5>
