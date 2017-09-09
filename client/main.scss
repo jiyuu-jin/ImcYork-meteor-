@@ -1,16 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,400');
 
-.inappbrowser-app-bar {
-  height: 70px;
-  background-color: white !important;
-  z-index: 9999999;
-}
 
 nav ul a,
 nav .brand-logo {
   color: #444;
 }
 
+.carousel .carousel-item {
+  width:500px !important;
+}
 
 .bigger{
   font-size: 17px;

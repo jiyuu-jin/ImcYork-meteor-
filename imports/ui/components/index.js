@@ -13,52 +13,16 @@ const IndexPage = () =>({
 
         return(
             <div>
-                <div className="slider big-slider">
-                    <ul className="slides big-slides">
-                        <li>
-                            <img src="/images/imc4.jpg"/>
-                        </li>
-                        <li>
-                            <Link to="/sculpsure/">
-                                <img style={styles} src="/images/sculpt2.jpg"/>
-                            </Link>
-                        </li>
-                    </ul>
+                <div className="carousel">
+                    <a className="carousel-item" href="#one!"><img src="/images/imc.jpg"/></a>
+                    <a className="carousel-item" href="#two!"><img src="/images/sculpt.jpg"/></a>
+                    <a className="carousel-item" href="#two!"><img src="/images/sculpt.jpg"/></a>
                 </div>
-                <div className="row physicians">
-                    <div className="col s12 m3 center">
-                        <div className="polaroid">
-                            <img height="200px" src="/images/Tom2.jpg"/>
-                            <div className="polar-cap">
-                                <h5>Dr. Thomas F. Kurland</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col s12 m3 center">
-                        <div className="polaroid">
-                            <img height="200px" src="/images/Pete3.jpg"/>
-                            <div className="polar-cap">
-                                <h5>Dr. Peter A. Kouvatsos</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col s12 m3 center">
-                        <div className="polaroid">
-                            <img height="200px" src="/images/Carol.jpg"/>
-                            <div className="polar-cap">
-                                <h5>Carol Snyder, CRNP</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col s12 m3 center">
-                        <div className="polaroid">
-                            <img height="200px" src="/images/Bradley.jpg"/>
-                            <div className="polar-cap">
-                                <h5>Dr. Craig Bradley</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
                 <div className="row">
                     <div className="col s12 m6 offset-m3">
                         <div className="card">
@@ -74,7 +38,7 @@ const IndexPage = () =>({
     },
 
     componentDidMount(){
-        $('.slider').slider();
+        $('.carousel').carousel({padding: 4});
     }
 
 });
