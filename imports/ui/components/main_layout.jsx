@@ -86,8 +86,8 @@ class MainLayout extends Component {
 							<div className="col offest-l3 l3 s12">
 								<h5 className="white-text">Connect</h5>
 								<ul>
-									<li><a className="white-text" href="#!">IMC Facebook</a></li>
-									<li><a className="white-text" href="#!">MDVIP Facebook</a></li>
+									<li><a className="white-text" href="https://www.facebook.com/SculpsureIMC/">Sculpsure Facebook</a></li>
+									<li><a className="white-text" href="https://www.facebook.com/ThomasKurlandDO/">MDVIP Facebook</a></li>
 									<li><a className="white-text" href="#!">Email Us</a></li>
 								</ul>
 							</div>

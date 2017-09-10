@@ -11,9 +11,9 @@ const Mdvip = () =>
       <div className="row">
         <div className="col offset-m3 m4">
           <h4 className="font1">THOMAS KURLAND, DO</h4>
-          <h5 className="center orange-text font1">MDVIP Website</h5>
-          <h5 className="center orange-text font1">Facebook</h5>
-          <h5 className="center orange-text font1">717.850.4049</h5>
+          <a href="https://www.mdvip.com/doctors/ThomasKurlandDO"><h5 className="center orange-text font1">MDVIP Website</h5></a>
+          <a href="https://www.facebook.com/ThomasKurlandDO/"><h5 className="center orange-text font1">Facebook</h5></a>
+          <a href="tel:717-850-4049"><h5 className="center orange-text font1">717-850-4049</h5></a>
         </div>
         <div className="col m4">
           <img src="https://www.mdvip.com/sites/default/files/doctor-images/TKurlandDO_5024_162.png"/>
