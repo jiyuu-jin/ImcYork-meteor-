@@ -6,11 +6,6 @@ import {Link} from 'react-router-dom';
 const IndexPage = () =>({
     render(){
 
-
-        var styles = {
-            backgroundPosition: "left"
-        };
-
         return(
             <div>
                 <div className="carousel">

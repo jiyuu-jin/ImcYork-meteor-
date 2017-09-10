@@ -8,21 +8,21 @@ const Emergencies = () =>
             <img src="/images/emergencies.jpg"/>
         </div>
         <div className="col m6">
-            <h5>
+            <h5 className="font1">
                 If you or a family member is experiencing a life threatening medical emergency please
                 <a href="tel:911"><span className="red-text"> call 911</span></a>  immediately.
             </h5>
-            <h5>
+            <h5 className="font1">
                 If you or your family member is in need of admission to Memorial Hospital or York Hospital please request one of our IMC doctors as your hospital physician.
             </h5>
-            <h5>
+            <h5 className="font1">
                 Once crisis care is initiated, please call our office to notify your physician of the situation.
             </h5>
             <br/>
-            <h5>
+            <h5 className="font1">
                 If you are experiencing a non-life threatening medical emergency please call our office for an appointment and/or medical assistance.
             </h5>
-            <a href="tel:717-843-8051"><h4 className="center red-text">717-843-8051</h4></a>
+            <a className="font1" href="tel:717-843-8051"><h4 className="center red-text">717-843-8051</h4></a>
         </div>
       </div>
       <br/>
