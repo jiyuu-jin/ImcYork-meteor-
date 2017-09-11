@@ -40,7 +40,7 @@ const Header = () =>({
 						<ul id="nav-mobile" className="side-nav">
 							<li><Link className="black-text" to="/patients/" href="#">Patient Information</Link></li>
 							<li><Link className="black-text" to="/physicians/">Physicians</Link></li>
-							<li><Link className="black-text" to="/appointments/">Appointemnts and Refills</Link></li>
+							<li><Link className="black-text" to="/appointments/">Appointments and Refills</Link></li>
 							<li><Link className="black-text" to="/emergencies/">Emergencies</Link></li>
 							<li><Link to="/mdvip/" className="bigger orange-text text-darken-1" >MDVIP</Link></li>
 							<li><Link to="/sculpsure/" className=" bigger orange-text text-darken-1">SculpSure</Link></li>

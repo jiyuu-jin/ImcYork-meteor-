@@ -57,7 +57,7 @@ const IndexPage = () =>({
     componentDidMount(){
         $('.carousel').carousel({padding: 4});
         setInterval(function() {
-            $('.carousel').carousel('next');
+            $('.carousel').carousel('next', 1);
         }, 3000);
     }
 
