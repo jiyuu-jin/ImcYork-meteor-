@@ -3,23 +3,23 @@ import React from 'react'
 
 const Mdvip = () =>
   <div>
-    <h2 className="center"><h2 className="mdvip orange-text">MD</h2>VIP</h2>
-
 
       <br/>
 
       <div className="row">
         <div className="col offset-m3 m4">
+          <h2 className="center"><h2 className="mdvip orange-text">MD</h2>VIP</h2>
           <h4 className="font1">THOMAS KURLAND, DO</h4>
-          <a href="https://www.mdvip.com/doctors/ThomasKurlandDO"><h5 className="center orange-text font1">MDVIP Website</h5></a>
-          <a href="https://www.facebook.com/ThomasKurlandDO/"><h5 className="center orange-text font1">Facebook</h5></a>
-          <a href="tel:717-850-4049"><h5 className="center orange-text font1">717-850-4049</h5></a>
         </div>
         <div className="col m4">
           <img src="https://www.mdvip.com/sites/default/files/doctor-images/TKurlandDO_5024_162.png"/>
         </div>
       </div>
-
+      <div className="mdvip_link_bar">
+        <a href="https://www.mdvip.com/doctors/ThomasKurlandDO"><h5 className="center orange-text font1 mdvip_link_bar_item">MDVIP Website</h5></a>
+        <a href="https://www.facebook.com/ThomasKurlandDO/"><h5 className="center orange-text font1 mdvip_link_bar_item">Facebook</h5></a>
+        <a href="tel:717-850-4049"><h5 className="center orange-text font1 mdvip_link_bar_item">717-850-4049</h5></a>
+      </div>
 
       <br/>
       <h3 className="center font1">My Philosophy and Approach to Wellness</h3>

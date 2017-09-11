@@ -6,7 +6,9 @@ import Sculpsure from './sculpsure.js';
 import Faqs from './faqs.js';
 import Emergencies from './emergencies.js';
 import Physicians from './physicians.js';
-import Appointments from './appointments.js'
+import Appointments from './appointments.js';
+import Insurances from './insurances.jsx';
+import Experience from './expereince.js'
 
 import {
 	BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
@@ -17,11 +19,16 @@ const Header = () =>({
 	render(){
 		return(
 			<div>
+				<ul id="dropdown1" className="dropdown-content">
+					<li><Link className="orange-text" to="/patients">Services</Link></li>
+					<li><Link className="orange-text" to="/insurance">Insurances</Link></li>
+					<li><Link className="orange-text" to="/experience">Patient Experience</Link></li>
+				</ul>
 				<nav className="white" role="navigation">
 					<div className="nav-wrapper container">
 						<Link to="/" width="96px" id="logo-container" href="#"><img className="site-logo" height="50px" src="/images/logo.png"/></Link>
 						<ul className="right hide-on-med-and-down">
-							<li><Link className="black-text" to="/patients/" href="#">Patient Information</Link></li>
+							<li><a href="#!" data-activates="dropdown1" className="black-text dropdown-button">Patient Information</a></li>
 							<li><Link className="black-text" to="/physicians/">Physicians</Link></li>
 							<li><Link className="black-text" to="/appointments/">Appointemnts and Refills</Link></li>
 							<li><Link className="black-text" to="/emergencies/">Emergencies</Link></li>
@@ -47,6 +54,7 @@ const Header = () =>({
 	},
 
 	componentDidMount(){
+		$(".dropdown-button").dropdown();
 		$('.button-collapse').sideNav();
 	}
 
@@ -64,7 +72,7 @@ class MainLayout extends Component {
 			<div>
 				<Header/>
 
-				<div id="page-content" className="grey lighten-4">
+				<div id="page-content" className="grey lighten-2">
 						<Switch>
 							<Route exact name="index" path="/" component={IndexPage} />
 							<Route path="/mdvip" component={Mdvip} />
@@ -74,6 +82,8 @@ class MainLayout extends Component {
 							<Route path="/emergencies" component={Emergencies} />
 							<Route path="/patients" component={Patients} />
 							<Route path="/appointments" component={Appointments} />
+							<Route path="/insurance" component={Insurances} />
+							<Route path="/experience" component={Experience} />
 						</Switch>
 				</div>
 				<footer className="page-footer orange darken-1">

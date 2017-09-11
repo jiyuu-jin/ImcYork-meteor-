@@ -86,6 +86,7 @@ const Sculpsure = () =>({
                                             <img className="customizable" height="500px" src="/images/social_sculpt.jpg"/>
                                     </div>
                             </div>
+                            <br/>
                             <div className="row">
                                     <div className="col offset-m2 m8">
                                             <h4 className="center">Before and After</h4>
@@ -104,6 +105,10 @@ const Sculpsure = () =>({
                                             </li>
                                     </ul>
                             </div>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <br/>
                     </div>
                 )
         },
