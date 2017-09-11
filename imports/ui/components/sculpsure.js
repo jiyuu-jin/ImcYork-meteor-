@@ -2,6 +2,14 @@ import React from 'react'
 
 const Sculpsure = () =>({
 
+
+        pauseSlides(){
+            $('.slider').slider('pause');
+            var myVideo = document.getElementById("video1");
+            myVideo.play();
+            console.log("Clicked")
+        },
+
         render(){
 
                 var styles = {
@@ -19,6 +27,11 @@ const Sculpsure = () =>({
                                     <ul className="slides big-slides">
                                             <li>
                                                     <img style={styles} src="/images/sculpt2.jpg"/>
+                                            </li>
+                                            <li>
+                                                    <video id="video1" poster="/images/thumb.png" onClick={this.pauseSlides.bind(this)} className="videoStyle" controls>
+                                                        <source src="/images/SculpSure_Patient_Testimonials.mp4"/>
+                                                    </video>
                                             </li>
                                     </ul>
                             </div>
@@ -114,7 +127,7 @@ const Sculpsure = () =>({
         },
 
         componentDidMount(){
-                $('.slider').slider();
+                $('.slider').slider({transition: 100});
                 $('.slider2').slider();
                 $('.customizable').materialbox();
         }

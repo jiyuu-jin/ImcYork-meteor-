@@ -20,7 +20,7 @@ const Header = () =>({
 		return(
 			<div>
 				<ul id="dropdown1" className="dropdown-content">
-					<li><Link className="orange-text" to="/patients">Services</Link></li>
+					<li><Link className="orange-text" to="/services">Services</Link></li>
 					<li><Link className="orange-text" to="/insurance">Insurances</Link></li>
 					<li><Link className="orange-text" to="/experience">Patient Experience</Link></li>
 				</ul>
@@ -80,7 +80,7 @@ class MainLayout extends Component {
 							<Route path="/faqs" component={Faqs} />
 							<Route path="/sculpsure" component={Sculpsure} />
 							<Route path="/emergencies" component={Emergencies} />
-							<Route path="/patients" component={Patients} />
+							<Route path="/services" component={Patients} />
 							<Route path="/appointments" component={Appointments} />
 							<Route path="/insurance" component={Insurances} />
 							<Route path="/experience" component={Experience} />

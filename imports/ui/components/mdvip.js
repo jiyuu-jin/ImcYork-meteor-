@@ -35,7 +35,7 @@ const Mdvip = () =>
       <div className="row">
         <div className="col offset-m3 m6">
           <h5 className="font1">My goal has always been to treat each patient as if they were a member of my own family. I will continue to provide this level of personalized care to my patients and their families. Together, our goal will be to improve your health and maintain your quality of life. Nothing is more important than our family, friends and health. I am passionate about providing an environment that will empower patients to create their own personal health goals that promotes exercise, healthy eating habits, decreased stress and prevention of potential medical problems through MDVIP’s Annual Wellness Plan and Health Risk Assessment.</h5>
-          <h5 className="font1"><a href="https://www.mdvip.com/doctors/ThomasKurlandDO">See More</a></h5>
+          <h5 className="font1"><a className="orange-text" href="https://www.mdvip.com/doctors/ThomasKurlandDO">See More</a></h5>
         </div>
       </div>
   </div>;

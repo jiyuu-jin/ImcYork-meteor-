@@ -11,6 +11,11 @@ nav{
   margin-bottom: 3px;
 }
 
+
+.fix{
+    margin-top: -80px;
+}
+
 .mdvip_title{
   margin-top: -5px;
 }
@@ -59,6 +64,12 @@ nav{
 
 .nav-wrapper{
   display: flex;
+}
+
+
+.videoStyle{
+  height: calc(100vh - 64px);
+  width: 100%;
 }
 
 p {
