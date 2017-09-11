@@ -30,7 +30,7 @@ const Header = () =>({
 						<ul className="right hide-on-med-and-down">
 							<li><a href="#!" data-activates="dropdown1" className="black-text dropdown-button">Patient Information</a></li>
 							<li><Link className="black-text" to="/physicians/">Physicians</Link></li>
-							<li><Link className="black-text" to="/appointments/">Appointemnts and Refills</Link></li>
+							<li><Link className="black-text" to="/appointments/">Appointments and Refills</Link></li>
 							<li><Link className="black-text" to="/emergencies/">Emergencies</Link></li>
 							<li><Link to="/mdvip/" className="bigger orange-text text-darken-1" >MDVIP</Link></li>
 							<li><Link to="/sculpsure/" className=" bigger orange-text text-darken-1">SculpSure</Link></li>
