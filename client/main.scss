@@ -11,6 +11,10 @@ nav{
   margin-bottom: 3px;
 }
 
+.mdvip_title{
+  margin-top: -5px;
+}
+
 
 .mdvip_link_bar{
     display: flex;
@@ -24,6 +28,11 @@ nav{
 
 .slightly_transparent{
     background-color: rgba(255, 255, 255, 0.56) !important;
+}
+
+.doctor_pic{
+  display: block;
+  margin: 0 auto 20px auto;
 }
 
 .carousel .carousel-item {
@@ -44,6 +53,7 @@ nav{
 }
 
 .mdvip{
+  font-weight: 600;
   display: inline-block;
 }
 
@@ -130,6 +140,16 @@ p {
   }
   #index-banner .section {
     top: 10%;
+  }
+
+  .mdvip_link_bar{
+    display: block;
+    justify-content: inherit;
+  }
+
+  .mdvip_link_bar_item{
+    display: block;
+    margin: 0 auto;
   }
 }
 

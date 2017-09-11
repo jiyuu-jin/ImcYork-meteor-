@@ -9,18 +9,14 @@ const Emergencies = () =>
         </div>
         <div className="col m6">
             <h5 className="font1">
-                If you or a family member is experiencing a life threatening medical emergency please
-                <a href="tel:911"><span className="red-text"> call 911</span></a>  immediately.
+                If you or a family member is experiencing a life threatening medical emergency, please
+                <a href="tel:911"><span className="red-text"> contact 911</span></a>  immediately.
             </h5>
             <h5 className="font1">
-                If you or your family member is in need of admission to Memorial Hospital or York Hospital please request one of our IMC doctors as your hospital physician.
+                If you or a family member are experiencing a non-life threatening medical emergency, please call our office for an appointment or medical assistance.
             </h5>
             <h5 className="font1">
-                Once crisis care is initiated, please call our office to notify your physician of the situation.
-            </h5>
-            <br/>
-            <h5 className="font1">
-                If you are experiencing a non-life threatening medical emergency please call our office for an appointment and/or medical assistance.
+                After hours a medical provider is available on call via telephone for assistance with non-life threatening medical emergencies. For all other questions or inquiries, please leave a voicemail and a member of our staff will get back to you on the following business day.
             </h5>
             <a className="font1" href="tel:717-843-8051"><h4 className="center red-text">717-843-8051</h4></a>
         </div>

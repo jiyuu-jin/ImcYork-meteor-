@@ -15,7 +15,7 @@ const Sculpsure = () =>({
 
                 return(
                     <div>
-                            <div className="slider big-slider">
+                            <div className="hide-on-small-only slider big-slider">
                                     <ul className="slides big-slides">
                                             <li>
                                                     <img style={styles} src="/images/sculpt2.jpg"/>
