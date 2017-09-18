@@ -105,7 +105,8 @@ class MainLayout extends Component {
 					</div>
 					<div className="footer-copyright">
 						<div className="container">
-							Created by  <a className="brown-text" href="http://pelkey.io"> Zachary Pelkey</a>
+							Created by  <a className="brown-text small_text" href="http://pelkey.io"> Zachary Pelkey</a>
+							Copyright Internal Medicine Consultants
 						</div>
 					</div>
 				</footer>
