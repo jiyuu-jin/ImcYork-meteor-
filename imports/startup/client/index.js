@@ -8,6 +8,7 @@ import 'materialize-css/dist/css/materialize.css';
 import MainLayout from '../../ui/components/main_layout.jsx';
 
 Meteor.startup(() => {
+    Session.set('itExist', false);
     render((
         <MainLayout />
     ), document.getElementById('app'));

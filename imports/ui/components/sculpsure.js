@@ -82,16 +82,21 @@ const Sculpsure = () =>({
                                             <h5>The applicators:
                                                     Coolsculpting is another body contouring system designed to destroy fat by using suction applicators and freezing to kill off the fat cells.
                                                     While the SculpSure’s applicator is a flat sapphire crystal that lays directly against the skin as a 1060nm diode laser is used to generate heat deep in the skin and melt the fat without affecting the skin surface or any underlying structures.
+                                            </h5>
+                                            <h5>
+
                                                     Treatment areas:
-                                                    SculpSure is able to treat up to four different areas of the body in a single 25-minute session. While Coolsculpting is able to treat just one area at a time. Even if an office has two Coolsculpting machines available and can offer Dual Sculpting, it will still typically take 3 to 4 hours to treat an average patient’s abdomen and flanks.
-                                                    What is the dynamics between treated and untreated areas?
-                                                    With Coolsculpting the suction applicator can cause a “shelving”effect, this a demarcation between the treated and non-treated areas, also known as “a shark bite.” Since the SculpSure’s applicator sits directly on top of the skin and does not require suction this allows for a tapering effect between treated and non-treated areas, thus there are no delineations.
+                                                <h5>SculpSure is able to treat up to four different areas of the body in a single 25-minute session. </h5>
+                                                While Coolsculpting is able to treat just one area at a time. Even if an office has two Coolsculpting machines available and can offer Dual Sculpting, it will still typically take 3 to 4 hours to treat an average patient’s abdomen and flanks.
+                                                <h5>  What is the dynamics between treated and untreated areas?
+                                                       With Coolsculpting the suction applicator can cause a “shelving”effect, this a demarcation between the treated and non-treated areas, also known as “a shark bite.” Since the SculpSure’s applicator sits directly on top of the skin and does not require suction this allows for a tapering effect between treated and non-treated areas, thus there are no delineations.</h5>
                                                     What are some drawbacks to Coolsculpting?
                                                     First, at least an inch of unwanted fat in any given area is required in order to adequately be sucked into the applicator.
                                                     The second issue deals with pain. The force required by the suction can be extremely painful during the first 6 minutes of treatment, before the targeted area can become numb. Also some patients have reported increased tenderness following treatments, especially once the numbness has worn off.
                                                     Lastly, there have been reports that due to the freezing process used by Coolsculpting that this can cause long-term nerve damage, along with temporary nodules, bruising, and itching that can last weeks or even months. These symptoms may require prescription medications to alleviate. By contrast, since SculpSure uses heat it does not damage any tissue other than fat, and there are no reported cases of post procedure nerve pain or numbness. There may be some initial swelling or bruising after treatment, however this typically lasts less than 24 hours.
                                                     IS there anything SculpSure can offer that Coolsculpting can  not?
-                                                    Since SculpSure uses heat, it has also been shown to stimulate collagen within the treated area. This leads to tightening of the skin in addition to fat cell destruction.</h5>
+                                                    Since SculpSure uses heat, it has also been shown to stimulate collagen within the treated area. This leads to tightening of the skin in addition to fat cell destruction.
+                                                </h5>
                                     </div>
                             </div>
                             <div className="row">

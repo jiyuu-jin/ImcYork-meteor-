@@ -98,7 +98,7 @@ class MainLayout extends Component {
 								<ul>
 									<li><a className="white-text" href="https://www.facebook.com/SculpsureIMC/">Sculpsure Facebook</a></li>
 									<li><a className="white-text" href="https://www.facebook.com/ThomasKurlandDO/">MDVIP Facebook</a></li>
-									<li><a className="white-text" href="#!">Email Us</a></li>
+									<li><a className="white-text" href="mailto:imc1777@comcast.net">Email Us</a></li>
 								</ul>
 							</div>
 						</div>

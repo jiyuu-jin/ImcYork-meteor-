@@ -28,7 +28,12 @@ const Appointments = () =>
                             MDVIP: 717-850-4049
                         </h6>
                         </a>
-                        <div className="divider"></div>
+                        <a href="tel:717-848-2578">
+                            <h6 className="orange-text">
+                                Fax: 717-848-2578
+                            </h6>
+                        </a>
+                        <div className="divider"/>
                         <h5>
                         Conveniently located next to
                         Memorial Hospital at
@@ -42,7 +47,7 @@ const Appointments = () =>
                             (Click here for directions)
                         </h6>
                         </a>
-                        <div className="divider"></div>
+                        <div className="divider"/>
                         <h5>
                                   Office Hours:
                         </h5>

@@ -13,6 +13,10 @@ const IndexPage = () =>({
                 <br/>
                 <br/>
                 <br/>
+                <div className="top_options">
+                    <a href="https://www.medentmobile.com/portal/index.php?practice_id=8fTfL3cT" className="orange-text"> MEDENT Patient Portal</a>
+                    <a href="http://www.imcyork.com/imc_med-history-1-.pdf" className="orange-text">New Patient Form</a>
+                </div>
                 <div className="card">
                     <div className="card-content">
                         <div className="carousel fix">
@@ -22,6 +26,7 @@ const IndexPage = () =>({
                         </div>
                     </div>
                  </div>
+                <h4 className="center orange-text">We are excepting new patients for IMC, Sculpsure and MDVIP.</h4>
                 <br/>
                 <br/>
                 <br/>
@@ -56,9 +61,17 @@ const IndexPage = () =>({
 
     componentDidMount(){
         $('.carousel').carousel({padding: 4});
-        setInterval(function() {
-            $('.carousel').carousel('next', 1);
-        }, 3000);
+
+
+        if(Session.get('itExist') === false){
+            setInterval(function() {
+                $('.carousel').carousel('next', 1);
+            }, 3000);
+            Session.set('itExist', true);
+            console.log(Session.get('noExist'));
+        }else{
+            console.log("It's already running");
+        }
     }
 
 });
