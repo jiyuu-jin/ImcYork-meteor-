@@ -61,7 +61,7 @@ const Sculpsure = () =>({
                             </div>
                             <div className="row">
                                     <div className="col offset-m2 m8">
-                                            <h4>Am I a candidate</h4>
+                                            <h4>Am I a candidate?</h4>
                                             <h5> Do you live a healthy, active lifestyle, but have annoying pockets of fat that just won’t go away? Perhaps you have thought about body contouring procedures before, but do not want to have surgery, or just don’t have time in your busy schedule to recover from a procedure? SculpSure may be the body contouring solution to help you achieve a slimmer, more sculpted appearance. Call us and schedule your free consultation and learn more about your customized SculpSure treatment.</h5>
                                     </div>
                             </div>
@@ -72,7 +72,7 @@ const Sculpsure = () =>({
                             </div>
                             <div className="row">
                                     <div className="col offset-m2 m8">
-                                            <h4>Is it safe</h4>
+                                            <h4>Is it safe?</h4>
                                             <h5>SculpSure is FDA cleared for the treatment of the abdomen, flanks, back, inner thighs, and outer thighs.</h5>
                                     </div>
                             </div>

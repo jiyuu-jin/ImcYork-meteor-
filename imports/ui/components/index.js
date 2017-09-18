@@ -26,7 +26,7 @@ const IndexPage = () =>({
                         </div>
                     </div>
                  </div>
-                <h4 className="center orange-text">We are excepting new patients for IMC, Sculpsure and MDVIP.</h4>
+                <h4 className="center orange-text">We are excepting new patients for IMC, SculpSure and MDVIP.</h4>
                 <br/>
                 <br/>
                 <br/>
