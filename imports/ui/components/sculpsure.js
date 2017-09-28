@@ -13,7 +13,8 @@ const Sculpsure = () =>({
         render(){
 
                 var styles = {
-                        backgroundPosition: "left"
+                        backgroundPosition: "left",
+                        width: "70vw"
                 };
 
                 var styles2 ={
@@ -23,18 +24,7 @@ const Sculpsure = () =>({
 
                 return(
                     <div>
-                            <div className="hide-on-small-only slider big-slider">
-                                    <ul className="slides big-slides">
-                                            <li>
-                                                    <img style={styles} src="/images/sculpt2.jpg"/>
-                                            </li>
-                                            <li>
-                                                    <video id="video1" poster="/images/thumb.png" onClick={this.pauseSlides.bind(this)} className="videoStyle" controls>
-                                                        <source src="/images/SculpSure_Patient_Testimonials.mp4"/>
-                                                    </video>
-                                            </li>
-                                    </ul>
-                            </div>
+                        <center><img style={styles} src="/images/sculpt2.jpg"/></center>
                             <div className="row">
                                     <div className="col offset-m2 m8">
                                             <h4>What is SculpSure?</h4>
@@ -75,6 +65,9 @@ const Sculpsure = () =>({
                                             <h4>Is it safe?</h4>
                                             <h5>SculpSure is FDA cleared for the treatment of the abdomen, flanks, back, inner thighs, and outer thighs.</h5>
                                     </div>
+                                <video id="video1" poster="/images/thumb.png" onClick={this.pauseSlides.bind(this)} className="videoStyle" controls>
+                                    <source src="/images/SculpSure_Patient_Testimonials.mp4"/>
+                                </video>
                             </div>
                             <div className="row">
                                     <div className="col offset-m2 m8">
