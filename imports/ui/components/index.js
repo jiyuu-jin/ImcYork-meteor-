@@ -15,7 +15,7 @@ const IndexPage = () =>({
                 <br/>
                 <div className="top_options">
                     <a href="https://www.medentmobile.com/portal/index.php?practice_id=8fTfL3cT" className="orange-text"> MEDENT Patient Portal</a>
-                    <a href="http://www.imcyork.com/imc_med-history-1-.pdf" className="orange-text">New Patient Form</a>
+                    <a href="/images/form.pdf" className="orange-text">New Patient Form</a>
                 </div>
                 <div className="card">
                     <div className="card-content">

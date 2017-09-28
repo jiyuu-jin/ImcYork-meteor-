@@ -27,6 +27,12 @@ nav{
 }
 
 
+.background{
+  background-image: url(/images/background.jpg);
+  background-repeat: no-repeat,
+}
+
+
 .top_options{
   position: relative;
   width: 500px;
@@ -138,12 +144,13 @@ p {
 }
 
 .big-slider{
-  height: calc(100vh - 64px) !important;
+  margin: 0 auto;
+  width: calc(70vw - 64px) !important;
 }
 
 
 .big-slides{
-  height: calc(100vh - 64px) !important;
+  width: calc(70vw - 64px) !important;
 }
 
 .physicians{
