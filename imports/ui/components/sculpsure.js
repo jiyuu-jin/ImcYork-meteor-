@@ -43,6 +43,9 @@ const Sculpsure = () =>({
                                             <h5>SculpSure is ideal for people with trouble spots particularly those that seem resistant to diet and exercise.</h5>
                                     </div>
                             </div>
+                                <video id="video1" poster="/images/thumb.png" onClick={this.pauseSlides.bind(this)} className="videoStyle" controls>
+                                    <source src="/images/SculpSure_Patient_Testimonials.mp4"/>
+                                </video>
                             <div className="row">
                                     <div className="col offset-m2 m8">
                                             <h4>What kind of results can I expect?</h4>

@@ -72,7 +72,7 @@ class MainLayout extends Component {
 			<div>
 				<Header/>
 
-				<div id="page-content" className="grey lighten-2">
+				<div id="page-content" className="thebackground">
 						<Switch>
 							<Route exact name="index" path="/" component={IndexPage} />
 							<Route path="/mdvip" component={Mdvip} />

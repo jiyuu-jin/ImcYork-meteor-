@@ -27,9 +27,9 @@ nav{
 }
 
 
-.background{
-  background-image: url(/images/background.jpg);
-  background-repeat: no-repeat,
+.thebackground{
+  padding: 10px 0 10px 0;
+ // background: url(/images/background5.jpg) right bottom no-repeat, url(/images/background5.jpg) left top repeat;
 }
 
 
@@ -100,8 +100,9 @@ nav{
 
 
 .videoStyle{
-  height: calc(100vh - 64px);
-  width: 100%;
+  display:block;
+  margin: 0 auto;
+  width: calc(70vw - 64px);
 }
 
 p {
